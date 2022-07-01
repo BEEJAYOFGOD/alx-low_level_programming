@@ -8,7 +8,7 @@
 
 int main()
 {
-	char str[] = "Programming is like building a multiingual puzzle.\n";
+	char str1[] = "Programming is like building a multiingual puzzle.\n";
 	puts(str1);
 
 	return 0;

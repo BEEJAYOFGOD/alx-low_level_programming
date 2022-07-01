@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <time.h>
-/* more headers goes ther */
+/* more headers goes there */
 
 /*
 * main - checks if a random generated number is positive, negative or 0
-*
+* Return: 0 if error
 */
 int main(void)
 {
@@ -26,4 +26,5 @@ int main(void)
 		printf("%f is negative\n", n);
 	}
 
+	return (0);
 }

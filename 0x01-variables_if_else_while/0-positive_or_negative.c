@@ -2,9 +2,10 @@
 #include <time.h>
 /* more headers goes there */
 
-/*
+/**
 * main - checks if a random generated number is positive, negative or 0
-* Return: 0 if error
+* Return: Always 0 (Success)
+*
 */
 int main(void)
 {
@@ -15,7 +16,7 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%f is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
@@ -23,7 +24,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%f is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 
 	return (0);

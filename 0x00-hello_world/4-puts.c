@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int mainvoid()
 {
 	char str1[] = "Programming is like building a multiingual puzzle.\n";
 	puts(str1);

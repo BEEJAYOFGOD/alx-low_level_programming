@@ -1,0 +1,13 @@
+# include <stdio.h>
+
+
+/**
+* main - print the alphabets in lowercase
+* Return : 0 Always (Success)
+*/
+
+int main(void)
+{
+	char c = 'abcdefghijklmnopqrstuvwxyz';
+	putchar(c);
+}

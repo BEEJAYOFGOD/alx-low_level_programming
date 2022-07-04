@@ -3,20 +3,26 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*
-* main - a program that prints the last digit of a string
+/**
+* main - A program that prints the last digit of a number
 * Return: Always 0 (Success)
 *
 */
 
 int main(void)
 {
-	int n, LastDigit;
+	int n, LastD;
+
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	LastDigit = n % 10;
-	printf("Last digit of %d is %d\n",n, LastDigit);
+	LastD = n % 10;
+
+	if (LastD > 5)
+		printf("The last digit of %d is %d and is greater than 5\n", n, LastD);
+	else if (LastD == 0)
+		printf("The last digit of %d is %d is 0 and is 0\n", n, LastD);
+	else if ((LastD < 6) && (LastD != 0))
+		printf("The last digit of %d is %d and less than 6 and not 0\n", n, LastD);
 	return (0);
 }
-

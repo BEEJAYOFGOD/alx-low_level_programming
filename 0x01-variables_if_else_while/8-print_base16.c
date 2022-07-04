@@ -11,7 +11,7 @@ int main(void)
 	int var;
 	char var1;
 
-	for (var = '0'; var <= '9'; var++)
+	for (var = 0; var <= 9; var++)
 	{
 		putchar((var % 10) + '0');
 	}

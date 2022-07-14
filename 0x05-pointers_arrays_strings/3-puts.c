@@ -1,17 +1,20 @@
 #include "main.h"
 
 /**
-* _puts - prints out  a string literal
-* @str: string
-*/
+ * _puts - prints a string
+ * @str: string to be printed
+ *
+ * cc: 12th july, 2022.
+ */
 
 void _puts(char *str)
 {
-	int n;
+	int i = 0;
 
-	while (str[n] != '\0')
-		_putchar(str[n]);
-		n++;
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }

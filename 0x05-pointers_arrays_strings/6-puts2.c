@@ -2,7 +2,7 @@
 
 /**
  * puts2 - print every other character of a string
- * @s: string to be reversed
+ * @str: string to be reversed
  */
 
 void puts2(char *str)
